@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-
+import { FaStreetView } from "react-icons/fa";
 
 
 
@@ -47,7 +47,7 @@ useEffect(()=>{
            {search}
 
     </h2>
-    <h1 className="temp">{city.temp} °Cel</h1>
+    <h1 className="temp">< FaStreetView />{city.temp} °Cel</h1>
 </div>
 <div className="wave -one"></div>
 
